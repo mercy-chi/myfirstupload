@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    margin: 20px;
+    background-color:beige;
+    line-height: 1.5;
+}
+header{
+    background-color:rebeccapurple;
+    padding: 27px;
+    margin: 3px;
+    border-radius: 10px;
+    color:aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+nav a {
+   color: white;
+   padding-right:10px;
+   text-decoration: none;
+}
+nav {
+    gap: 20px;
+    display: flex;
+    
+}
+nav a:hover{
+    color: gold;
+
+}
+header h1{
+    margin-bottom: 15px;
+}
+section{
+    background-color:pink;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    border-left: 5px solid blue;
+    box-shadow: 0px  5px  15px maroon;
+}
+section h2{
+  margin-bottom: 25px;
+  color:red;
+}ul{
+    list-style-type: square;
+    margin-left: 20px;
+    
+}
+li{
+    margin-bottom: 10px;
+}
+article{
+      border: 1px solid red;
+      border-radius: 10px;
+      margin: 15px;
+      padding:10px;
+      transition: transform 0.2s ease;
+}
+span{
+    background-color:blue;
+    padding: 5px;
+    border-radius:  8px 0px;
+    color:aliceblue;
+}
+
+.weeks{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7rem;
+    padding: 8px;
+    
+}
+h3{
+    margin-top: 10px;
+}
+
+article:hover{
+   transform: translateY(-2px);
+   box-shadow: 0px 5px 15px gold;
+}
